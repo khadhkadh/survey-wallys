@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>confirm your order</title>
+    <link rel="stylesheet" href="css/survey.css">
+</head>
+
+<header>
+<img src="./img/téléchargement.png" alt="written logo" class="first-logo">
+<h1 id="title"> Wallyscar model purchase </h1>
+  </header>
+  <body>
+<p id="description"> please fill details below to confirm your purchase</p>
+
+<form id="survey-form">
+  <img src="./img/logo.jpg" alt="wallyscar logo" class="logo">  
+  <div class="input-headings">
+  <label for="name" id="name-label">Name</label>
+  <input id="name" type="text" placeholder="Flen ben Foulen" class="form-inputs" required >     </input>
+  <br>
+  <label for="email" id="email-label">Email</label>
+  <input id="email" type="email" name="email" placeholder="kedhe.kedhe@email.com"               class="form-inputs" required></input>
+  <br>
+  <label for="number" id="number-label">Age</label>
+  <input id="number" type="number" name="number" placeholder="18" min="18" max="99"             class="form-inputs" required></input>
+  <br>
+<label for="dropdown" id="model"><u>Please select your model:</u><label>
+      <br>
+      <select id="dropdown" class="form-inputs">
+        <option></option>
+        <option value="WALLYSCAR 619"> WALLYSCAR 619 </option>
+        <option value="WALLYSCAR 216 PICK-UP"> WALLYSCAR 216 PICK-UP </option>
+        <option value="WALLYSCAR 216 FOURGONETTE"> WALLYSCAR 216 FOURGONETTE </option>
+        <option value="WALLYSCAR 619"> WALLYSCAR IRIS </option>
+      </select>
+      <br>
+      <br>
+      <div>
+        <label for="model-color" id="model-color"><b>Model Color</b></label>
+        <br>
+        <input id="model-color" type="radio" id="grey" name="color" value="grey">
+        <label for="model-color">Grey</label>
+        <br>
+        <input id="model-color" type="radio" id="black" name="color" value="black">
+        <label for="model-color">Black</label>
+        <br>
+        <input id="model-color" type="radio" id="blue" name="color" value="bue">
+        <label for="model-color">Blue</label>
+        <br>
+        <input id="model-color" type="radio" id="red" name="color" value="red">
+        <label for="model-color">Red</label>
+      </div>
+      <br>
+      <br>
+      <label for="features"><b>Add features</b></label>
+      <br>
+      <input id="checkbox" type="checkbox" name="features" value="sunroof">
+      <label for="checkbox">Sunroof</label>
+      <br>
+      <input id="checkbox" type="checkbox" name="features" value="panoramic-sunroof">
+      <label for="checkbox">Panoramic Sunroof</label>
+      <br>
+      <input id="checkbox" type="checkbox" name="features" value="recoil-chamber">
+      <label for="checkbox">recoil chamber</label>
+      <br>
+      <input id="checkbox" type="checkbox" name="features" value="autopilot">
+      <label for="checkbox">Self-driving mode(autopilot)</label>
+      <br>
+      <label id="textarea"><u>Describe if you want to add customization or other features</u></label>
+      <br>
+      <textarea id="textarea" name="instruction" rows="5" cols="40">
+    </textarea>
+      <br>
+      <input id="submit" type="submit" value="confirm your order" class="submit-button"> </form>
+    </body>
+  <br>
+  <br>
+  <br>
+  </div>
+  </form>
+    <footer class="copyright">&copyKhadhKhadh</footer>
+
+    </html>
